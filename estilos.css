@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/*par que no se altere su tamaño que permanesaca las medidas*/
+}
+
+header{
+    display: flex;/*al lado del otro*/
+    justify-content: space-between;/*lo pone en un elemento
+     a la derecha y el otro a la izquierda*/
+    align-items: center;
+
+    background: rgb(11, 15, 13) ;
+    padding: 10px;
+
+}
+#logo-empresa{
+    height: 120px;
+
+    display: flex;
+
+    text-decoration: none;
+    color: wheat;
+    align-items: center;
+}
+
+#logo{
+    height: 100px;
+    width: 100px;
+
+    margin-right: 20px;
+}
+
+#empresa{
+    font-size: 40px;
+}
+
+nav .link-nav{
+     margin: 0 10px ;
+     font-size: 30px;
+     text-decoration: none;
+     color: white;
+
+     font-weight: bold;/*aplica negrita texto*/
+
+}
+
+nav .link-nav:hover{
+    color: rgb(228, 70, 8);
+}
+
+
